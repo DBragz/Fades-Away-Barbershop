@@ -18,7 +18,7 @@ export default function Home() {
         <Link href="/gallery" >
           <a>Gallery</a>
         </Link>
-        
+
         <Link href="/book" >
           <a>Book Online</a>
         </Link>
@@ -41,31 +41,10 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
-
-        <div className={styles.grid}>
-          <a href="/" className={styles.card}>
-            <h3>Home &rarr;</h3>
-          </a>
-          <a href="/gallery" className={styles.card}>
-            <h3>Gallery &rarr;</h3>
-          </a>
-
-          <a href="/book" className={styles.card}>
-            <h3>Book Online &rarr;</h3>
-          </a>
-
-          <a href="/shop" className={styles.card}>
-            <h3>Shop &rarr;</h3>
-          </a>
-
-          <a href="/about" className={styles.card}>
-            <h3>About &rarr;</h3>
-          </a>
-        </div>
       </main>
 
       <footer className={styles.footer}>
-        ©2019 by Fades Away Barbershop. 
+        ©2019 by Fades Away Barbershop.
       </footer>
     </div>
   )
