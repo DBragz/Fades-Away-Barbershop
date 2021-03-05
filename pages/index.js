@@ -65,7 +65,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        ©2019 by Fades Away Barbereshop. 
+        ©2019 by Fades Away Barbershop. 
       </footer>
     </div>
   )
