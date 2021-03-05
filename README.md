@@ -36,5 +36,5 @@ yarn build
 
 ## Authors
 
-*[Daniel Ribeirinha-Braga](https://github.com/DBragz)
-*[Barkley Santo](https://github.com/barksanto)
+ * [Daniel Ribeirinha-Braga](https://github.com/DBragz)
+ * [Barkley Santo](https://github.com/barksanto)
