@@ -33,7 +33,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to home page!
+          Welcome to Fades Away!
         </h1>
 
         <p className={styles.description}>
