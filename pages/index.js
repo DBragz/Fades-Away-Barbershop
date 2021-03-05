@@ -9,7 +9,6 @@ export default function Home() {
         <title>Fades Away Barbershop</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <div className={styles.nav}>
         <Link href="/" >
           <a>Home</a>

@@ -1,4 +1,4 @@
-/* .container {
+.container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -16,6 +16,8 @@
   justify-content: center;
   align-items: center;
   background: white;
+  background-image: url('../public/hero.webp');
+  background-size: cover;
 }
 
 .footer {
@@ -129,4 +131,4 @@
   width: 100%;
   background: white;
   border-bottom: 1px solid #eaeaea;
-} */
+}
