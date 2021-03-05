@@ -12,23 +12,23 @@ function About() {
 
       <div className={styles.nav}>
         <Link href="/" >
-          <a>Home</a>
+          <a className={styles.link}>Home</a>
         </Link>
 
         <Link href="/gallery" >
-          <a>Gallery</a>
+          <a className={styles.link}>Gallery</a>
         </Link>
         
         <Link href="/book" >
-          <a>Book Online</a>
+          <a className={styles.link}>Book Online</a>
         </Link>
 
         <Link href="/shop" >
-          <a>Shop</a>
+          <a className={styles.link}>Shop</a>
         </Link>
 
         <Link href="/about" >
-          <a>About</a>
+          <a className={styles.link}>About</a>
         </Link>
       </div>
 
