@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
-export default function Home() {
+function Gallery() {
   return (
     <div className={styles.container}>
       <Head>
@@ -34,7 +34,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to home page!
+          Welcome to the gallery page!
         </h1>
 
         <p className={styles.description}>
@@ -70,3 +70,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Gallery
