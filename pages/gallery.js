@@ -39,11 +39,24 @@ function Gallery() {
         </h1>
 
         <div className={styles.grid}>
-          <a href="/" className={styles.card}>
+        <a href="/" className={styles.card}>
             <h3>Home &rarr;</h3>
           </a>
+          
           <a href="/gallery" className={styles.card}>
             <h3>Gallery &rarr;</h3>
+          </a>
+
+          <a href="/book" className={styles.card}>
+            <h3>Book Online &rarr;</h3>
+          </a>
+
+          <a href="/shop" className={styles.card}>
+            <h3>Shop &rarr;</h3>
+          </a>
+
+          <a href="/about" className={styles.card}>
+            <h3>About &rarr;</h3>
           </a>
         </div>
       </main>

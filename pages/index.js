@@ -11,7 +11,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.nav}>
-
         <Link href="/" >
           <a className={styles.link}>Home</a>
         </Link>
@@ -42,9 +41,10 @@ export default function Home() {
         />
 
         <div className={styles.grid}>
-          <a href="/" className={styles.card}>
+        <a href="/" className={styles.card}>
             <h3>Home &rarr;</h3>
           </a>
+          
           <a href="/gallery" className={styles.card}>
             <h3>Gallery &rarr;</h3>
           </a>

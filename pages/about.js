@@ -42,6 +42,7 @@ function About() {
           <a href="/" className={styles.card}>
             <h3>Home &rarr;</h3>
           </a>
+          
           <a href="/gallery" className={styles.card}>
             <h3>Gallery &rarr;</h3>
           </a>
