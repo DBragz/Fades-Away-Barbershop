@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -37,11 +38,6 @@ export default function Home() {
           Welcome to home page!
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
         <div className={styles.grid}>
           <a href="/" className={styles.card}>
             <h3>Home &rarr;</h3>
@@ -65,7 +61,23 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        ©2019 by Fades Away Barbereshop. 
+        ©2019 by Fades Away Barbereshop.
+        <a href="https://www.instagram.com/fadesawaybarbershop/">
+          <Image
+            src="/instagram.webp"
+            alt="instagram"
+            width={20}
+            height={20}
+          />
+        </a>
+        <a href="https://www.facebook.com/Fades-Away-Barbershop-2291895647707219/">
+          <Image
+            src="/facebook.webp"
+            alt="instagram"
+            width={20}
+            height={20}
+          />
+        </a>
       </footer>
     </div>
   )
