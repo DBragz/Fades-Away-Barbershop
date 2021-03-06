@@ -10,7 +10,6 @@ export default function Home() {
         <title>Fades Away Barbershop</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <div className={styles.nav}>
 
         <Link href="/" >
@@ -20,7 +19,7 @@ export default function Home() {
         <Link href="/gallery" >
           <a className={styles.link}>Gallery</a>
         </Link>
-        
+
         <Link href="/book" >
           <a className={styles.link}>Book Online</a>
         </Link>

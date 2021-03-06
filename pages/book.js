@@ -19,7 +19,7 @@ function Book() {
         <Link href="/gallery" >
           <a className={styles.link}>Gallery</a>
         </Link>
-        
+
         <Link href="/book" >
           <a className={styles.link}>Book Online</a>
         </Link>
