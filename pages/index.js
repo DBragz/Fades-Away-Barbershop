@@ -12,6 +12,7 @@ export default function Home() {
       </Head>
 
       <div className={styles.nav}>
+
         <Link href="/" >
           <a className={styles.link}>Home</a>
         </Link>
@@ -34,9 +35,12 @@ export default function Home() {
       </div>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to home page!
-        </h1>
+       <Image
+          src="/Fades Away Barbershop.webp"
+          alt="instagram"
+          width={337}
+          height={160}
+        />
 
         <div className={styles.grid}>
           <a href="/" className={styles.card}>
