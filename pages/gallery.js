@@ -12,6 +12,14 @@ function Gallery() {
       </Head>
 
       <div className={styles.nav}>
+        <Image
+          className={styles.navpic}
+          src="/Fades Away Barbershop.webp"
+          alt="instagram"
+          width={150}
+          height={75}
+        />
+
         <Link href="/" >
           <a className={styles.link}>Home</a>
         </Link>
@@ -37,28 +45,6 @@ function Gallery() {
         <h1 className={styles.title}>
           Welcome to the gallery page!
         </h1>
-
-        <div className={styles.grid}>
-        <a href="/" className={styles.card}>
-            <h3>Home &rarr;</h3>
-          </a>
-          
-          <a href="/gallery" className={styles.card}>
-            <h3>Gallery &rarr;</h3>
-          </a>
-
-          <a href="/book" className={styles.card}>
-            <h3>Book Online &rarr;</h3>
-          </a>
-
-          <a href="/shop" className={styles.card}>
-            <h3>Shop &rarr;</h3>
-          </a>
-
-          <a href="/about" className={styles.card}>
-            <h3>About &rarr;</h3>
-          </a>
-        </div>
       </main>
 
       <footer className={styles.footer}>
