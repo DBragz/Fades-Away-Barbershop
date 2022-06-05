@@ -3,13 +3,14 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
-function Contact() {
+export default function Contact() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Fades Away Barbershop</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
 
       <div className={styles.nav}>
         <Image
@@ -19,31 +20,38 @@ function Contact() {
           width={150}
           height={75}
         />
-
-        <Link href="/" >
-          <a className={styles.link}>Home</a>
-        </Link>
-
-        <Link href="/gallery" >
-          <a className={styles.link}>Gallery</a>
-        </Link>
-        
-        <Link href="/book" >
-          <a className={styles.link}>Book Online</a>
-        </Link>
-
-        <Link href="/shop" >
-          <a className={styles.link}>Shop</a>
-        </Link>
-
-        <Link href="/about" >
-          <a className={styles.link}>About</a>
-        </Link>
+        <div className="space-x-6 ...">
+          <span className="-inline-block ...">
+            <Link href="/" >
+              <a className={styles.link}>Home</a>
+            </Link>
+          </span>
+          <span className="inline-block ...">
+            <Link href="/gallery" >
+              <a className={styles.link}>Gallery</a>
+            </Link>
+          </span>
+          <span className="inline-block ...">
+            <Link href="/book" >
+              <a className={styles.link}>Book Online</a>
+            </Link>
+          </span>
+          <span className="inline-block ...">
+            <Link href="/shop" >
+              <a className={styles.link}>Shop</a>
+            </Link>
+          </span>
+          <span className="inline-block ...">
+            <Link href="/about" >
+              <a className={styles.link}>About</a>
+            </Link>
+          </span>
+        </div>
       </div>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to the contact page!
+            Welcome to book contact page!
         </h1>
       </main>
 
@@ -69,5 +77,3 @@ function Contact() {
     </div>
   )
 }
-
-export default Contact

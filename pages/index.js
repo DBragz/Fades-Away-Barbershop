@@ -20,28 +20,28 @@ export default function Home() {
           width={150}
           height={75}
         />
-        <div class="space-x-6 ...">
-          <span class="-inline-block ...">
+        <div className="space-x-6 ...">
+          <span className="-inline-block ...">
             <Link href="/" >
               <a className={styles.link}>Home</a>
             </Link>
           </span>
-          <span class="inline-block ...">
+          <span className="inline-block ...">
             <Link href="/gallery" >
               <a className={styles.link}>Gallery</a>
             </Link>
           </span>
-          <span class="inline-block ...">
+          <span className="inline-block ...">
             <Link href="/book" >
               <a className={styles.link}>Book Online</a>
             </Link>
           </span>
-          <span class="inline-block ...">
+          <span className="inline-block ...">
             <Link href="/shop" >
               <a className={styles.link}>Shop</a>
             </Link>
           </span>
-          <span class="inline-block ...">
+          <span className="inline-block ...">
             <Link href="/about" >
               <a className={styles.link}>About</a>
             </Link>
