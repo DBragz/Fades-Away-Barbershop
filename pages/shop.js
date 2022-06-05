@@ -12,7 +12,7 @@ export default function Shop() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-            Welcome to book online page!
+            Welcome to shop page!
         </h1>
       </main>
 

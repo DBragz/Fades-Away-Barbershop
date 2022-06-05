@@ -12,7 +12,7 @@ export default function About() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-            Welcome to book online page!
+            Welcome to about page!
         </h1>
       </main>
 

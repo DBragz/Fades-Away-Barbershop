@@ -11,9 +11,9 @@ export default function Home() {
       <Navbar />
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-            Welcome to book online page!
-        </h1>
+        <a className={styles.booksy} href='https://booksy.com/en-us/144649_fades-away-barbershop_barber-shop_22277_melrose'>
+          Booksy
+        </a>
       </main>
 
       <Footer />
